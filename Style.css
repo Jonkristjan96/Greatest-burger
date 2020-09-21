@@ -1,0 +1,64 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("Gothic-Joker.ttf");
+  src: url("/Font/gothic-joker-webfont.woff") format("woff"),
+    url("/Font/gothic-joker-webfont.woff2") format("opentype"),
+    url("/Font/stylesheet.css") format("svg");
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/fastfud-gamburger-ovoshchi-ogon-dvoe-eda.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.navbar {
+  width: 85%;
+  height: 15%;
+  padding-top: 18em;
+  margin: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+Button {
+  display: flex;
+  color: #000000b2;
+  padding: 5px 20px;
+  background: transparent;
+  border: 3px solid;
+  border-radius: 35px;
+  font-size: 6em;
+  font-family: "CustomFont";
+  margin-top: 2.4em;
+  transform: rotate(0deg);
+}
+
+.Button:hover {
+  cursor: pointer;
+  transition: all 2s linear;
+  transform: rotateX(360deg);
+}
+
+.burger {
+  display: flex;
+  color: #000000b2;
+  padding-top: 2.4em;
+  background: transparent;
+  border-radius: 35px;
+  font-size: 6em;
+  font-family: "CustomFont";
+}
